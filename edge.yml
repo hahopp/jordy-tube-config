@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    user:
+      sensitiveHeaders:
+      path: /user/**
+      url: http://user/
